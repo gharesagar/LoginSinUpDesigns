@@ -12,14 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="40dp"
-        android:background="@drawable/testdrawable"
-        tools:context="fragments.LoginFragment">
+        android:background="@drawable/testdrawable">
 
         <customviews.RegularTexview
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Sign up"
             android:textColor="@color/white"
             android:textSize="45sp" />
@@ -27,7 +26,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
             android:layout_marginStart="20dp">
 
             <LinearLayout
@@ -203,7 +203,7 @@
             android:background="@drawable/rounded_bt"
             android:gravity="center"
             android:text="Sign up"
-            android:textColor="@color/color2"
+            android:textColor="#27ae60"
             android:textSize="22sp" />
 
     </LinearLayout>

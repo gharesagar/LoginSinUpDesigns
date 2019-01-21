@@ -18,7 +18,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="Login"
                 android:textColor="@color/white"
                 android:textSize="45sp" />
@@ -134,7 +134,7 @@
             android:background="@drawable/rounded_bt"
             android:gravity="center"
             android:text="Login"
-            android:textColor="@color/color2"
+            android:textColor="#27ae60"
             android:textSize="22sp" />
 
     </LinearLayout>
