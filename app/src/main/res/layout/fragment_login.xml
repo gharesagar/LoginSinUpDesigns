@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/testdrawable"
+            tools:context="fragments.LoginFragment"
+            android:layout_marginBottom="40dp">
+
+            <customviews.RegularTexview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="45sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <customviews.RegularTexview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="Email"
+                                android:textColor="#E6FFFFFF"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_email"
+                                android:tint="#E6FFFFFF" />
+
+                        </RelativeLayout>
+
+                        <customviews.BoldEdittext
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:layout_marginStart="3dp"
+                            android:background="#6fFFFFFF"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <customviews.RegularTexview
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="Password"
+                                android:textColor="#E6FFFFFF"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_lock"
+                                android:tint="#E6FFFFFF" />
+
+                        </RelativeLayout>
+
+                        <customviews.BoldEdittext
+                            android:layout_width="match_parent"
+                            android:layout_height="40sp"
+                            android:layout_marginStart="3dp"
+                            android:background="#6fFFFFFF"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <customviews.RegularTexview
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Forgot password ?"
+                        android:textColor="#E6FFFFFF"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp">
+
+        <customviews.BoldTextview
+            android:layout_width="180sp"
+            android:layout_height="50sp"
+            android:background="@drawable/rounded_bt"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/color2"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
